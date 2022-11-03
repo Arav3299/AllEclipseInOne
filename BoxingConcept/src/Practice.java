@@ -1,0 +1,91 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String string = "jenish the hero";
+//		char[] arr = new char[string.length()];
+//		for (int i = 0; i < string.length(); i++) {
+//			arr[i] = string.charAt(i);
+//		}
+//
+//		for (char ch : arr) {
+//			System.out.println(ch);
+//		}
+//
+//		Map<Character, Integer> map = new HashMap<>();
+//
+//		for (int i = 0; i < arr.length; i++) {
+//			int count = 1;
+//			for (int j = i + 1; j < arr.length; j++) {
+//
+//				if (arr[i] == arr[j]) {
+//
+//					System.out.println("1" + arr[i] + "," + arr[j]);
+//					count++;
+//				}
+//			}
+//			map.put(arr[i], count);
+//
+//		}
+//		System.out.println(map);
+//
+//		Map<Character, Integer> lastMap = new TreeMap<>(map);
+//
+//		System.out.println(lastMap);
+//
+//		Iterator<Character> iterator = lastMap.keySet().iterator();
+//
+//		String last = "";
+//
+//		while (iterator.hasNext()) {
+//
+//			last += iterator.next();
+//
+//		}
+//
+//		System.out.println(last);
+		
+//		char[] arr = string.toCharArray();
+//		
+//		
+//		for(int i=0;i<string.length();i++) {
+//			
+//			for(int j=i+1;j<string.length();j++) {
+//				
+//				if(arr[i]==' ') {
+//					continue;
+//				}else {
+//				if(arr[i]==arr[j]) {
+//					//System.out.println("2");
+//					arr[j]='$';
+//					 
+//				}
+//				
+//			}}
+//			
+//		}
+//		
+//		System.out.println(arr);
+//		for(char ch:arr) {
+//			if(ch=='$') {
+//				
+//			}else {
+//				System.out.print(ch);
+//			}
+//		}
+		
+		int j=0;
+		for(j=0;j<2;j++) {
+			break;
+		}
+		
+		System.out.print(j);
+		
+		
+
+	}
+}

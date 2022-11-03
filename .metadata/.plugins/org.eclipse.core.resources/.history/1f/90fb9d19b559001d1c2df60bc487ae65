@@ -1,0 +1,10 @@
+package com.website.arav.serviceimpl;
+
+import org.springframework.stereotype.Service;
+
+import com.website.arav.service.ContentService;
+
+@Service
+public class ContentServiceImpl implements ContentService {
+
+}

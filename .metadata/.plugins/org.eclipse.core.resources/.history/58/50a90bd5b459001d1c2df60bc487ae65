@@ -1,0 +1,5 @@
+package com.website.arav.repository;
+
+public interface ContentRepository {
+
+}
